@@ -36,7 +36,7 @@ try {
   }
 } catch (error) {
   Notify.failure("We're sorry, but you've reached the end of search results.")
-  console.log(error.response.code)
+  
 }
 }
 
