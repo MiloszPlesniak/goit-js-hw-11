@@ -9,20 +9,25 @@
 display: flex;
 justify-content: center;
 background-color: rgb(65, 65, 209);
-padding: 5px 5px;
+padding: 20px 20px;
 }
+.search-form input{
+  height: 30px;
+  width: 340px;
+}
+
 .gallery {
   display: flex;
   gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 5px;
+  margin-top: 10px;
   
   
 }
 .photo-card img {
-  width: 220px;
-  height: 150px
+  width: 440px;
+  height: 300px
   ;
 }
 
@@ -32,14 +37,14 @@ padding: 5px 5px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);
     margin-top: -4px;
-    height: 28px;
-    padding-top: 4px;
+    height: 56px;
+    padding-top: 8px;
     
 }
 .info-item b{
-    font-size: 7px;
-    margin-bottom: 3px;
+    font-size: 14px;
     display: flex;
+    margin-bottom: 6px;
     justify-content: center;
 }
 .load-more{
